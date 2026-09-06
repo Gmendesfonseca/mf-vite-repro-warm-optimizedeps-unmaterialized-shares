@@ -1,0 +1,20 @@
+{
+  "name": "mf-vite-repro-warm-optimizedeps-unmaterialized-shares",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "cold": "node ./clear-cache.mjs && vite",
+    "warm": "vite"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@module-federation/vite": "1.21.3",
+    "@vitejs/plugin-react": "^6.0.5",
+    "vite": "^8.2.0"
+  }
+}
